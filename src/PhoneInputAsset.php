@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 class PhoneInputAsset extends AssetBundle
 {
     /** @var string */
-    public $sourcePath = '@bower/intl-tel-input';
+    public $sourcePath = '@vendor/jackocnr/intl-tel-input';
     /** @var array */
     public $css = ['build/css/intlTelInput.css'];
     /** @var array */
