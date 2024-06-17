@@ -11,13 +11,13 @@ use yii\web\AssetBundle;
 class PhoneInputAsset extends AssetBundle
 {
     /** @var string */
-    public $sourcePath = '@vendor/jackocnr/intl-tel-input';
+    public $sourcePath = '@vendor/jackocnr/intl-tel-input/build';
     /** @var array */
-    public $css = ['build/css/intlTelInput.css'];
+    public $css = ['css/intlTelInput.css'];
     /** @var array */
     public $js = [
-        'build/js/utils.js',
-        'build/js/intlTelInput-jquery.js',
+        'js/utils.js',
+        'js/intlTelInput-jquery.js',
     ];
     /** @var array */
     public $depends = ['yii\web\JqueryAsset'];
